@@ -7,7 +7,7 @@ sudo apt install npm -y
 mkdir -p /home/ubuntu/.ssh
 ssh-keyscan -t rsa github.com > /home/ubuntu/.ssh/known_hosts
 git clone https://github.com/kakusingh120/Api_Gateway.git
-cd API_Gateway
+cd Api_Gateway
 sudo npm install
 # start the app
 sudo npx pm2 start index.js 
